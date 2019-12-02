@@ -1,0 +1,4 @@
+# Allows us to specify files for git to ignore/not track
+
+.idea/
+venv/
