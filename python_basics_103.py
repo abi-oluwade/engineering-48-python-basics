@@ -40,3 +40,28 @@ print ((num_a + num_b) > num_c)  ### This example here uses brackets to presever
 print ("10" == 10)
 print(num_a == num_c)
 print(num_a == num_c)
+
+## Booleans are expressions which are either true or false.
+print(type(True))
+print(type(False))
+
+bool_true = True
+bool_false = False
+
+print(bool_true != bool_true)
+print(bool_true == bool_true)
+
+## Logical AND & logical OR
+## AND syntax takes the (<condition>) AND (<condition>) ---> outputs a bool
+    ## requires the two sides to be true in order for it to return true.
+print(True and True) ### the two sides are true
+print(True and False) ### only one side is true ---> becomes false
+
+## OR  syntax takes the (<condition>) OR (<condition>) ---> outputs a bool
+    ## requires only side to be true to result in true
+
+print(True or False)
+print(False or True)
+print(False or False)
+
+
