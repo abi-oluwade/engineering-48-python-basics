@@ -8,8 +8,10 @@ guessuesTaken = 0
 print("Hello!, what is you name?")
 user_name_input = str(input())
 
+# generate the random number, we can use the keyword 'breakpoint()' to debug our code and inspect our variables.
+## and stop our code at a specific point in time
 number = random.randint(1,1)
-print("well my name is"+ user_name_input +"I am thinking of a number between 1 - 20")
+print("well" + "  " +user_name_input +"  "+"I am thinking of a number between 1 - 20")
 
 while guessuesTaken < 10:
     print("Take a guess!")
@@ -27,7 +29,7 @@ while guessuesTaken < 10:
         break
 if guess == number:
     guessuesTaken = str(guessuesTaken)
-    print("Good job" + user_name_input + "you guessed my number in" + guessuesTaken + "guesses!")
+    print("Good job" + "  "+ user_name_input + "  " + "you guessed my number in" + " " + guessuesTaken +" "+ "guess(es)!")
 
 if guess != number:
     number = str(number)

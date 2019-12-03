@@ -4,6 +4,7 @@
 ## while <condition>:
     ## block of code
     ## block of code
+    ## break when condition is fulfilled
 ##:
 
 ## note length is not the same as the index and heres a basic example
@@ -25,3 +26,4 @@ while counter <= index_length:
     print(wish_list[counter])
     counter += 1
 
+while True:
