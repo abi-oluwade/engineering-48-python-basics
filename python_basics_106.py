@@ -37,4 +37,4 @@ print(embedded_dict['key1'][1], embedded_dict['key1'][-1])
 print(embedded_dict['staff']['julio man']['birth_date'])
 
 ## so some tips, when trying to return a specific value, keep counting the position in the nest and then in the corresponding nest, so for example, in the print above
-## i can index the first and last value in the list using the int,but for julio it is not a list rather you must specify the string in the dictionary. 
+## i can index the first and last value in the list using the int,but for julio it is not a list rather you must specify the string in the dictionary.
